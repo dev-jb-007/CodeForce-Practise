@@ -8,10 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		2FE9DD9726D0BEF1007DEDC8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FE9DD9626D0BEF1007DEDC8 /* main.cpp */; };
+		2FE9DDA426D0C099007DEDC8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FE9DDA326D0C099007DEDC8 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		2FE9DD9126D0BEF1007DEDC8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		2FE9DD9F26D0C099007DEDC8 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +35,19 @@
 /* Begin PBXFileReference section */
 		2FE9DD9326D0BEF1007DEDC8 /* CodeForce-Practise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CodeForce-Practise"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FE9DD9626D0BEF1007DEDC8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2FE9DDA126D0C099007DEDC8 /* Codeforce Not Adjacent Matrix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Codeforce Not Adjacent Matrix"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FE9DDA326D0C099007DEDC8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2FE9DD9026D0BEF1007DEDC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FE9DD9E26D0C099007DEDC8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				2FE9DD9526D0BEF1007DEDC8 /* CodeForce-Practise */,
+				2FE9DDA226D0C099007DEDC8 /* Codeforce Not Adjacent Matrix */,
 				2FE9DD9426D0BEF1007DEDC8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				2FE9DD9326D0BEF1007DEDC8 /* CodeForce-Practise */,
+				2FE9DDA126D0C099007DEDC8 /* Codeforce Not Adjacent Matrix */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +81,14 @@
 				2FE9DD9626D0BEF1007DEDC8 /* main.cpp */,
 			);
 			path = "CodeForce-Practise";
+			sourceTree = "<group>";
+		};
+		2FE9DDA226D0C099007DEDC8 /* Codeforce Not Adjacent Matrix */ = {
+			isa = PBXGroup;
+			children = (
+				2FE9DDA326D0C099007DEDC8 /* main.cpp */,
+			);
+			path = "Codeforce Not Adjacent Matrix";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +111,23 @@
 			productReference = 2FE9DD9326D0BEF1007DEDC8 /* CodeForce-Practise */;
 			productType = "com.apple.product-type.tool";
 		};
+		2FE9DDA026D0C099007DEDC8 /* Codeforce Not Adjacent Matrix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FE9DDA526D0C099007DEDC8 /* Build configuration list for PBXNativeTarget "Codeforce Not Adjacent Matrix" */;
+			buildPhases = (
+				2FE9DD9D26D0C099007DEDC8 /* Sources */,
+				2FE9DD9E26D0C099007DEDC8 /* Frameworks */,
+				2FE9DD9F26D0C099007DEDC8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Codeforce Not Adjacent Matrix";
+			productName = "Codeforce Not Adjacent Matrix";
+			productReference = 2FE9DDA126D0C099007DEDC8 /* Codeforce Not Adjacent Matrix */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +138,9 @@
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
 					2FE9DD9226D0BEF1007DEDC8 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					2FE9DDA026D0C099007DEDC8 = {
 						CreatedOnToolsVersion = 13.0;
 					};
 				};
@@ -110,6 +159,7 @@
 			projectRoot = "";
 			targets = (
 				2FE9DD9226D0BEF1007DEDC8 /* CodeForce-Practise */,
+				2FE9DDA026D0C099007DEDC8 /* Codeforce Not Adjacent Matrix */,
 			);
 		};
 /* End PBXProject section */
@@ -120,6 +170,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FE9DD9726D0BEF1007DEDC8 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FE9DD9D26D0C099007DEDC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE9DDA426D0C099007DEDC8 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +311,22 @@
 			};
 			name = Release;
 		};
+		2FE9DDA626D0C099007DEDC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2FE9DDA726D0C099007DEDC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -270,6 +344,15 @@
 			buildConfigurations = (
 				2FE9DD9B26D0BEF1007DEDC8 /* Debug */,
 				2FE9DD9C26D0BEF1007DEDC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FE9DDA526D0C099007DEDC8 /* Build configuration list for PBXNativeTarget "Codeforce Not Adjacent Matrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FE9DDA626D0C099007DEDC8 /* Debug */,
+				2FE9DDA726D0C099007DEDC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
